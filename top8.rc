@@ -1,0 +1,367 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\top8.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\msnms.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 top8"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "top8 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TOP8_DIALOG DIALOGEX 0, 0, 372, 205
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "    Topmodel 程序 version  8.0 "
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "输出结果",IDOK,208,29,48,16
+    PUSHBUTTON      "退出",IDCANCEL,214,128,38,15
+    PUSHBUTTON      "Input Data",IDC_Input,28,63,91,22
+    PUSHBUTTON      "Sensitivity Analysis",IDC_Parameter,26,125,93,21
+    PUSHBUTTON      "Optimizing Parameter",IDC_Optimizing,25,94,93,22
+    PUSHBUTTON      "模拟曲线图",IDC_Draw,207,65,47,16
+    PUSHBUTTON      "DEM处理",IDC_DemDraw,30,27,86,24
+    PUSHBUTTON      "土壤水空间分布",IDC_BUTTONwatertable,193,95,71,20
+END
+
+IDD_Input DIALOG DISCARDABLE  0, 0, 255, 113
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "打开数据   设置保存"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "继 续",IDOK,108,92,27,11
+    PUSHBUTTON      "取消",IDCANCEL,153,92,29,11
+    EDITTEXT        IDC_EDIT1,70,19,145,12,ES_AUTOHSCROLL
+    LTEXT           "降雨量数据:",IDC_STATIC,8,20,51,11
+    EDITTEXT        IDC_EDIT2,70,35,145,12,ES_AUTOHSCROLL
+    LTEXT           "DEM分类文件:",IDC_STATIC,8,36,54,11
+    EDITTEXT        IDC_EDIT3,70,52,145,12,ES_AUTOHSCROLL
+    LTEXT           "等流时线文件:",IDC_STATIC,8,53,55,11
+    EDITTEXT        IDC_EDIT4,70,69,145,12,ES_AUTOHSCROLL
+    LTEXT           "结果保存路径:",IDC_STATIC,8,70,54,11
+    PUSHBUTTON      "...",IDC_rain,217,19,14,11,BS_BITMAP
+    PUSHBUTTON      "...",IDC_dem,217,35,14,11,BS_BITMAP
+    PUSHBUTTON      "...",IDC_dlx,217,52,14,11,BS_BITMAP
+    PUSHBUTTON      "...",IDC_save,217,69,14,11,BS_BITMAP
+END
+
+IDD_Optimizing DIALOG DISCARDABLE  0, 0, 271, 188
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Optimizing Parameter"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "Continue",IDOK,127,158,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,197,158,50,14
+    EDITTEXT        IDC_Erandom,87,17,37,12,ES_AUTOHSCROLL
+    LTEXT           "Random Number:",IDC_STATIC,19,18,60,11
+    LTEXT           "SZM",IDC_STATIC,29,42,22,9
+    EDITTEXT        IDC_OPI_SZM,62,39,62,14,ES_AUTOHSCROLL
+    LTEXT           "T0",IDC_STATIC,29,63,28,11
+    EDITTEXT        IDC_OPI_T0,62,61,63,15,ES_AUTOHSCROLL
+    LTEXT           "TD",IDC_STATIC,29,86,18,12
+    EDITTEXT        IDC_OPI_TD,62,84,63,14,ES_AUTOHSCROLL
+    LTEXT           "SRmax",IDC_S_SRmax,29,107,23,14
+    EDITTEXT        IDC_OPI_SRmax,62,105,63,14,ES_AUTOHSCROLL
+    LTEXT           "CHV",IDC_STATIC,30,129,20,11
+    EDITTEXT        IDC_OPI_CHV,62,127,63,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Optimizing",IDC_BUTTON2,27,158,61,15
+    LTEXT           "Efficiency:",IDC_STATIC,139,127,36,14
+    EDITTEXT        IDC_E_Efficiency,187,124,58,16,ES_AUTOHSCROLL
+END
+
+IDD_Sensitivity DIALOG DISCARDABLE  0, 0, 274, 153
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sensitivity analysis"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "继续",IDOK,207,114,21,12
+    PUSHBUTTON      "取消",IDCANCEL,207,130,20,12
+    EDITTEXT        IDC_EDIT1,48,16,68,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,132,16,31,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,178,16,32,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_T0,48,35,68,14,ES_AUTOHSCROLL
+    LTEXT           "SZM",IDC_STATIC,19,18,22,9
+    LTEXT           "T0",IDC_STATIC,19,38,18,11
+    LTEXT           "TD",IDC_STATIC,19,56,15,12
+    LTEXT           "SRmax",IDC_S_SRmax,19,74,24,11
+    LTEXT           "CHV",IDC_STATIC,19,92,20,11
+    EDITTEXT        IDC_S_T0MIN,132,35,31,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_T0MAX,178,35,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_TD,48,54,68,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_TDMIN,132,54,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_TDMAX,178,54,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_SR,48,72,68,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_SR_MIN,132,72,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SR_MAX,178,72,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_CHV,48,91,68,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_CHVMIN,132,91,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S_CHVMAX,178,91,32,14,ES_AUTOHSCROLL
+    LTEXT           "Efficiency:",IDC_STATIC,39,119,36,14
+    EDITTEXT        IDC_S_E,84,117,52,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "分析",Sensitivityanalysis,218,16,19,14
+    PUSHBUTTON      "分析",IDC_BUTTON1,218,35,18,14
+    PUSHBUTTON      "分析",IDC_BUTTON3,218,54,19,12
+    PUSHBUTTON      "分析",IDC_BUTTON4,218,73,20,12
+    PUSHBUTTON      "分析",IDC_BUTTON5,218,91,19,12
+    PUSHBUTTON      "输出参数",IDC_BUTTON6,147,117,35,15
+END
+
+IDD_Huatu DIALOG DISCARDABLE  0, 0, 485, 208
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "绘图",IDOK,156,7,50,14
+    PUSHBUTTON      "返回",IDCANCEL,298,7,50,14
+    CONTROL         "",IDC_huatukuang,"Static",SS_BLACKFRAME,7,28,471,173
+END
+
+IDD_DemDraw DIALOG DISCARDABLE  0, 0, 453, 328
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "返回",IDCANCEL,403,11,32,14
+    CONTROL         "",IDC_dem,"Static",SS_BLACKFRAME,63,28,383,293
+    COMBOBOX        IDC_Color,10,42,51,104,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "图层颜色",IDC_STATIC,14,34,33,8
+    PUSHBUTTON      "打开DEM",IDC_Bopen,66,11,39,14
+    PUSHBUTTON      "DEM填洼",IDC_BUTTON2,112,10,36,15
+    PUSHBUTTON      "流向分析",IDC_BUTTON3,157,11,38,14
+    PUSHBUTTON      "汇流面积",IDC_BUTTON4,204,11,37,14
+    PUSHBUTTON      "地形指数",IDC_BUTTON5,290,11,39,14
+    PUSHBUTTON      "土壤水动态变化",IDC_BUTTON7,341,11,56,14
+    PUSHBUTTON      "河网提取",IDC_BUTTON1,246,11,39,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "top8 Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "top8\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "top8.EXE\0"
+            VALUE "ProductName", "top8 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TOP8_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 365
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_Input, DIALOG
+    BEGIN
+        RIGHTMARGIN, 251
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_Optimizing, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_Sensitivity, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_Huatu, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 478
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_DemDraw, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 446
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 321
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\OPEN.BMP"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\SAVE.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 top8(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\top8.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: top8 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/top8.res" /d "NDEBUG" /d "_AFXDLL" "E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP395.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/top8.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp"
+"E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp"
+"E:\VC++\TOPMODEL水文模拟系统(demonstration)\Input.cpp"
+"E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp"
+"E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp"
+"E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8.cpp"
+"E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP395.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP396.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/top8.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\VC++\TOPMODEL水文模拟系统(demonstration)\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP396.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP397.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/top8.pdb" /machine:I386 /out:"Release/top8.exe" 
+".\Release\DemDraw.obj"
+".\Release\Huatu.obj"
+".\Release\Input.obj"
+".\Release\Optimizing.obj"
+".\Release\Sensitivity.obj"
+".\Release\StdAfx.obj"
+".\Release\top8.obj"
+".\Release\top8Dlg.obj"
+".\Release\top8.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP397.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DemDraw.cpp
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(226) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(243) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(891) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(908) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1083) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1352) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1369) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1264) : warning C4101: 'total' : unreferenced local variable
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1422) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1424) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1522) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1539) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1434) : warning C4101: 'total' : unreferenced local variable
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1684) : warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1927) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1947) : warning C4244: '=' : conversion from 'double' to 'unsigned short', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\DemDraw.cpp(1839) : warning C4101: 'total' : unreferenced local variable
+Huatu.cpp
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(117) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(117) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(118) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(119) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(119) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(131) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(131) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(132) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(133) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Huatu.cpp(133) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Input.cpp
+Optimizing.cpp
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(104) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(105) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(106) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(107) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(108) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(111) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(112) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(133) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(134) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(135) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(136) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(137) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Optimizing.cpp(138) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Sensitivity.cpp
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(125) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(159) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(193) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(227) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(261) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(294) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(296) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(297) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(317) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(323) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(340) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(341) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(342) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(362) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(366) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(383) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(384) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(385) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(405) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(409) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(424) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(425) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(426) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(446) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(450) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(464) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(465) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(466) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(486) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(490) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(501) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\Sensitivity.cpp(502) : warning C4305: '=' : truncation from 'const double' to 'float'
+top8.cpp
+top8Dlg.cpp
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(237) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(238) : warning C4305: '=' : truncation from 'const double' to 'float'
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(289) : warning C4101: 'Ihrof' : unreferenced local variable
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(449) : warning C4101: 'temp' : unreferenced local variable
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(450) : warning C4101: 'j' : unreferenced local variable
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(564) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(638) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(625) : warning C4101: 'nLowDis' : unreferenced local variable
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(625) : warning C4101: 'nHighDis' : unreferenced local variable
+Generating Code...
+E:\VC++\TOPMODEL水文模拟系统(demonstration)\top8Dlg.cpp(389) : warning C4700: local variable 'Sae' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+top8.exe - 0 error(s), 82 warning(s)
+</pre>
+</body>
+</html>
